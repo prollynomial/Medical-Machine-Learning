@@ -21,6 +21,7 @@ for (f in feature.names) {
 
 # Shuffle
 num.examples <- nrow(data)
+set.seed(123)
 data <- data[sample(num.examples),]
 
 # Set train:test split of 80:20

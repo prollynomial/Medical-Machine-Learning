@@ -19,8 +19,8 @@ train_y = train_y.as_matrix().reshape((train_y.shape[0],))
 test_x = pd.read_csv('test_x.csv')
 test_y = pd.read_csv('test_y.csv')
 
-# Using CV, discovered n=525 to be best (rng is seeded, results will not change)
-n_estimators = [ 525 ]
+# Using CV, discovered n=526 to be best (rng is seeded, results will not change)
+n_estimators = [ 526 ]
 best_error = float('Inf')
 best_model = None
 best_n = None
